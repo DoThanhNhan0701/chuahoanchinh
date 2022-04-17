@@ -1,0 +1,254 @@
+.home__home{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text_color);
+}
+.container__giohang--title{
+    margin-top: 32px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--text_color);
+}
+.container__title{
+    margin-bottom: 25px;
+}
+.giohang{
+    background-color: var(--white_color);
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    height: 200px;
+}
+.marginn{
+    margin-bottom: 40px;
+}
+.marginn-top{
+    margin-top: 30px;
+}
+.container__images{
+    float: left;
+
+}
+.container__img{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 170px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 5px;
+}
+.container__name-product{
+    float: left;
+    margin-top: 26px;
+    margin-left: 10px;
+    width: 350px;
+    font-size: 1.4rem;
+    font-weight: 1.6rem;
+    color: var(--text_color);
+    vertical-align: center;
+
+}
+.container__product--button-delete{
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: rgba(3, 19, 248, 0.877);
+}
+.container__product--button-buy{
+    text-decoration: none;
+    margin-left: 15px;
+    color: rgba(3, 19, 248, 0.877);
+
+}
+.giohang{
+    display: flex;
+}
+.container__giohang{
+    display: inline;
+}
+.container__price{
+    display: inline-flex;
+    margin-top: 26px;
+    margin-right: 16px;
+}
+.container__price--items{
+    width: 38px;
+    height: 30px;
+    margin-left: 26px;
+    color: var(--text_color);
+    font-size: 1.4rem;
+    padding-right: 5px;
+}
+.container__price--soluong{
+    margin-left: 35px;
+    padding-left: 20px;
+}
+.container__price--new{
+    font-weight: 600;
+    font-size: 1.8rem;
+ 
+    margin-bottom: 5px;
+}
+.container__price--old{
+    text-decoration: line-through;
+    font-size: 1.2rem;
+}
+.natural__number{
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+    font-weight: 1.6rem;
+    color: var(--text_color);
+    margin-bottom: 60px;
+
+}
+
+/* hhhh */
+.dm_up_down {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.quantity-change {
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    width: 30px;
+    display: inline-block;
+    height: 26px;
+    margin-right: -1px;
+    cursor: pointer;
+    font-weight: 700;
+    padding-bottom: 1px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #999;
+}
+
+.buy-quantity {
+    width: 30px;
+    border: 1px solid #e2e2e2;
+    height: 26px;
+}
+
+.text-center{
+    text-align: center;
+}
+/* heheh */
+/* phan thanh toán */
+.into__monney{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* Phần giá */
+.into__monney{
+    float: right;
+    margin-left: 16px;
+
+}
+.price__shares{
+    background-color: var(--white_color);
+    width: 270px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.price__amount--list-items{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.shares__items{
+    padding: 12px 12px;
+    color: var(--text_color);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.title__sanpham--buy-later{
+    text-decoration: none;
+    margin-left: 22px;
+}
+p.vat{
+
+    text-align: right;
+    margin-right: 10px;
+    font-size: 1.4rem;
+    color: var(--text_color);
+    padding-bottom: 12px;
+
+}
+.price__must-return{
+    color: black;
+    font-size: 1.6rem;
+}
+.duongke{
+    border-top: 1px solid #ccc;
+}
+.price__must-return-items{
+    color: var(--primary_color);
+    font-size: 2.4rem;
+}
+
+.btn__price--items{
+    margin-top: 8px;
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    background-color: var(--primary_color);
+    color: var(--white_color);
+    cursor: pointer;
+
+}
+.btn__price--items:hover{
+    background-color: rgb(221, 137, 41);
+}
+.discount__code{
+    margin-top: 17px;
+    padding: 12px 12px;
+    background-color: var(--white_color);
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.discount__code--donate{
+    font-size: 1.4rem;
+    line-height: 3rem;
+    padding-bottom: 14px;
+}
+.timkiem{
+    padding-top: 12px;
+    margin-bottom: 18px;
+    
+}
+.text__discount__code{
+    width: 162px;
+    height: 36px;
+    font-size: 1.4rem;
+    font-weight: 1.2rem;
+    outline: none;
+}
+.btn__discount__code{
+    height: 36px;
+    width: 76px;
+    font-size: 1.2rem;
+    color: var(--white_color);
+    background-color: var(--primary_color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.btn__discount__code:hover{
+    background-color: rgb(221, 137, 41);
+}
+.clear{
+    clear: both;
+}

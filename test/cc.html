@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dm_up_down {
+            display: flex;
+            align-items: center;
+        }
+
+        .quantity-change {
+            border: 1px solid #e2e2e2;
+            text-align: center;
+            width: 30px;
+            display: inline-block;
+            height: 26px;
+            margin-right: -1px;
+            cursor: pointer;
+            font-weight: 700;
+            padding-bottom: 1px;
+            font-size: 16px;
+            background-color: #f0f0f0;
+            color: #999;
+        }
+
+        .buy-quantity {
+            width: 30px;
+            border: 1px solid #e2e2e2;
+            height: 26px;
+        }
+
+        .text-center{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dm_up_down">
+        <span class="down quantity-change" data-value="-1">-</span>
+        <input class="text-center buy-quantity" value="1" min="1" size="5">
+        <span class="up quantity-change" data-value="1">+</span>
+    </div>
+</body>
+
+</html>
